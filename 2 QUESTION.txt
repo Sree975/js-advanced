@@ -1,0 +1,14 @@
+var bookName = prompt("please enter the name of the book:");
+var authorName = prompt("please enter the author of the book:");
+console.log(authorName);
+console.log(bookName);
+if(bookName.toLowerCase()=="the road ahead"&& authorName.toLowerCase()=="bill gates") {
+  console.log("reading status is true");
+}
+elseif(bookName.toLowerCase=="walter issacson"&& authorName.toLowerCase()=="steve jobs") {
+  console.log("reading status is true");
+}
+else (bookName.toLowerCase=="mockingjay: the final book of the hunger games"&&authorName.toLowerCase()==suzanne collins) {
+  console.log("reading status is false");
+};
+

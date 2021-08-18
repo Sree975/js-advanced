@@ -1,0 +1,8 @@
+const gimli =
+{ name: "Gimli",
+race: "dwarf",
+weapon: "axe",
+greet: function() { return `Hi, my name is ${this.name}!`; }, }
+console.log(gimli.greet());
+
+Dot notation is used to access the greet in the object gimli

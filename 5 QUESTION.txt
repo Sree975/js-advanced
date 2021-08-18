@@ -1,0 +1,10 @@
+Q5.
+var arr = [2, 56, 78, 34, 65];
+var new_arr = arr.map(function(num) {
+return num / 2;
+});
+print(new_arr);
+What will be the output for the above code?
+ ANSWER
+     the given code is wrong in javascript for printing we have to use console.log.  On using correct statement
+the output is an array[1,28,39,17,31.5] which is given by dividing the given array by 2.

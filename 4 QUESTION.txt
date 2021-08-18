@@ -1,0 +1,4 @@
+Eventhough semicolon is optional in javascript in fucntion foo2 in the return statement there is only the word return so the compiler
+automatically adds semicolon , this made the compiler to assign bar is equal to hello and it does not
+understand that it is an object. 
+     On printing both function function foo1 returns {bar:"Hello"} as output andn function foo2 returns undefined

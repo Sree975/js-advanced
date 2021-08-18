@@ -1,0 +1,7 @@
+no it is not correct when we have to access name and level in the constructor function of  the object we want 
+dot notation(.). The correct code is
+function Hero(name, level)
+{
+this.name = name;
+this.level = level;
+}

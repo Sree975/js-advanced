@@ -1,0 +1,12 @@
+Q3. What will be the output of the following code?
+var Employee =
+{
+company: 'Rohit'
+}
+var Emp1 = Object.create(employee);
+delete Emp1.company Console.log(emp1.company)
+  
+ANSWER
+it shows error and gives no output.  The type of error is Reference error. Javascript is case sensitive. The first letter
+of name of the variable should be small but the given code does not follows it. The first letter of console c should
+be capital. On correcting all these mistakes we get output Rohit
